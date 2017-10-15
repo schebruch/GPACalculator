@@ -16,8 +16,6 @@ public class School {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         try {
-           // System.out.println("What is your prior GPA?: ");
-            //double priorGPA = scan.nextDouble();
             GPACalculator add = new GPACalculator();
             add.addClasses();
             add.calcOverallGPA();
